@@ -1,0 +1,118 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 3.2rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  width: 10%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 2.1rem;
+    padding-bottom: 100px;
+
+}
+.intro{
+  margin: auto;
+  width: 60%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+.top-container{
+  padding-top: 100px;
+background-color: #E4F9F5;
+margin: 0;
+position: relative;
+}
+.top-cloud{
+  position:absolute;
+top: 70px;
+right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+p{
+    line-height: 2;
+}
+.programming{
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.prog1{
+  height: 300px;
+  width: 300px;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 64%;
+  margin: 100px auto 300px auto;
+  text-align: left;
+
+}
+.middle-container{
+  margin: 100px 0;
+}
+.contact-me{
+  width: 40%;
+  margin: 30px auto 30px;
+}
+
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:19px;
+	padding:15px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+a{
+  color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+.a{
+  font-size: 0.75rem;
+}
